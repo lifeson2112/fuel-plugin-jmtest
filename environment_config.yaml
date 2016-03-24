@@ -1,0 +1,23 @@
+# https://wiki.openstack.org/wiki/Fuel/Plugins#Plugin_elements_in_the_Fuel_web_UI
+attributes:
+  jmtest_text:
+    value: 'jmteset plugin'
+    label: 'jmtest plugin'
+    description: 'Does not do much'
+    weight: 25
+    type: "text"
+  root_filename:
+    type: "text"
+    weight: 50
+    value: ""
+    label: "Filename to write to under /root"
+    description: "Just some text"
+    regex:
+      source: '\S'
+      error: "Error field cannot be empty"
+  jmtest_text_to_write:
+    type: "text"
+    weight: 50
+    value: ""
+    label: "Text to write to file"
+    description: "Just some text" 

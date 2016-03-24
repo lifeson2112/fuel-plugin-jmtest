@@ -1,0 +1,22 @@
+# Plugin name
+name: jmtest 
+title: Test Fuel Plugin
+version: '1.0.0'
+description: Writes to a file on the root directory 
+
+fuel_version: ['6.1']
+licenses: ['Apache License Version 2.0']
+authors: ['Talligent Inc.']
+homepage: 'https://github.com/lifeson2112'
+groups: ['monitoring']
+
+# The plugin is compatible with releases in the list
+releases:
+  - os: ubuntu
+    version: 2014.2-6.1
+    mode: ['ha', 'multinode']
+    deployment_scripts_path: deployment_scripts/
+    repository_path: repositories/ubuntu
+
+# Version of plugin package
+package_version: '2.0.0'

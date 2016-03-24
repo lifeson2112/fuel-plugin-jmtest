@@ -1,0 +1,9 @@
+- id: jmtest
+  type: puppet
+  role: '*'
+  required_for: [post_deployment_end]
+  requires: [post_deployment_start]
+  parameters:
+    puppet_manifest: puppet/modules/jmtest/manifests/write-root-file.pp 
+    puppet_modules: puppet/modules
+    timeout: 300

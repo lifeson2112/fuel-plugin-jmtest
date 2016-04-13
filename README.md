@@ -23,3 +23,10 @@ Get current deployment graph on fuel master
 ```
 fuel graph --env 1 --download
 ```
+
+# Resources
+
+```
+https://wiki.openstack.org/wiki/Fuel/Plugins#Preparing_an_environment_for_plugin_development
+https://wiki.openstack.org/wiki/Fuel/Plugins#deployment_tasks.yaml
+```
